@@ -15,6 +15,6 @@ if url is None or key is None:
 if url and key:
     st.session_state.auth['url'] = url
     st.session_state.auth['key'] = key
-    st.page_link('pages/_chat.py',label='Connect')
+    st.page_link('pages/_Chat.py',label='Connect')
 
     
