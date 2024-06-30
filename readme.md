@@ -66,6 +66,11 @@ streamlit run _Connect.py
 
 ##### This command launches the Streamlit interface where you can interact with the CamelBot chatbot and begin the audit process.
 
+### Sample prompts to ask CamelBot
+- `A foreign student has come to open a bank account, what are the guidelines to follow?`
+- `There is a transaction of 2,00,000 in a savings account. What should I do?`
+
+ 
 # Documentation
 For a complete walkthrough of the audit Proof of Concept (POC) workflow, including examples, refer to the Jupyter notebook provided in the repository. This notebook details the entire process from initial data preparation to the generation of the final audit report, providing practical insights into the tool’s capabilities.
 

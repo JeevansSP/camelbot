@@ -19,7 +19,7 @@ class ChatAgent(BaseAgent):
         python_reply_tool = Tool.from_function(
             func=python_repl,
             name=python_repl.name,
-            description=python_repl.description,
+            description=python_repl.description+ ' Use this tool to perform any mathematical operations.',
         )
         
         super().__init__(system_messge=system_message, base_url=base_url, api_key=api_key, history=True, tools=[python_reply_tool])
